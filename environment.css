@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap");
+
+body {
+  margin: 70px;
+  font-family: "Open Sans", Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #fff;
+  color: #000;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px 0;
+  border-bottom: 2px solid #00aaff;
+}
+
+.logo img {
+  height: 80px;
+}
+
+nav {
+  margin-top: 10px;
+  text-align: center;
+}
+
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #000;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+main {
+  padding: 20px 0;
+}
+
+.save-environment h1 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.save-environment p {
+  font-size: 16px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.save-environment ol {
+  margin-left: 20px;
+  margin-bottom: 30px;
+  text-align: left;
+}
+
+.save-environment li {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.diagram {
+  width: 100%;
+  max-width: 600px;
+  display: block;
+  margin: 0 auto 30px auto;
+  border-radius: 20px;
+}
+
+/* Side-by-side image and text */
+.image-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: flex-start;
+  margin-top: 20px;
+}
+
+.half-image {
+  width: 100%;
+  max-width: 600px;
+  display: block;
+  margin: 0 auto 30px auto;
+  border-radius: 20px;
+}
+
+/* Footer styling */
+footer {
+  background-color: #f5f5f5;
+  padding: 30px 20px;
+  text-align: center;
+  margin-top: 40px;
+}
+
+footer details {
+  font-size: 14px;
+}
+
+footer a {
+  color: #00aaff;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  body {
+    margin: 20px;
+  }
+
+  nav a {
+    display: block;
+    margin: 8px 0;
+    font-size: 16px;
+  }
+
+  header {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .image-row {
+    flex-direction: column;
+  }
+
+  .half-image {
+    width: 80%;
+  }
+
+  .save-environment h1 {
+    font-size: 26px;
+  }
+}
